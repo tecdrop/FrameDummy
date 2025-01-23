@@ -16,7 +16,7 @@
   Name "FrameDummy"
 
   ;The setup executable file to create
-  OutFile "framedummy-installer.exe"
+  OutFile "framedummy-windows-installer.exe"
 
   ;The default installation directory
   InstallDir "$PROGRAMFILES64\Tecdrop\FrameDummy"
