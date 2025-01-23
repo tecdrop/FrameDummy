@@ -53,15 +53,15 @@
 
 ;Version Information
 
-  VIProductVersion "2.0.0.126"
+  VIProductVersion "2.0.1.130"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductName" "FrameDummy"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "Comments" "A fake Desktop window frame anywhere. For screenshots, pranks, or development."
   VIAddVersionKey /LANG=${LANG_ENGLISH} "CompanyName" "Tecdrop"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalTrademarks" ""
   VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalCopyright" "Copyright (c) 2013-2025 Tecdrop (https://www.tecdrop.com/)"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "FileDescription" "FrameDummy Installer"
-  VIAddVersionKey /LANG=${LANG_ENGLISH} "FileVersion" "2.0.0.126"
-  VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductVersion" "2.0.0.126"
+  VIAddVersionKey /LANG=${LANG_ENGLISH} "FileVersion" "2.0.1.130"
+  VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductVersion" "2.0.1.130"
 
 ;--------------------------------------
 
@@ -86,7 +86,7 @@ Section
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\FrameDummy" "DisplayName" "FrameDummy"
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\FrameDummy" "UninstallString" "$\"$INSTDIR\uninstall.exe$\""
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\FrameDummy" "QuietUninstallString" "$\"$INSTDIR\uninstall.exe$\" /S" 
-  WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\FrameDummy" "DisplayVersion" "2.0.0.126"
+  WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\FrameDummy" "DisplayVersion" "2.0.1.130"
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\FrameDummy" "DisplayIcon" "$\"$INSTDIR\FrameDummy.exe$\""
   WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\FrameDummy" "EstimatedSize" "136"
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\FrameDummy" "HelpLink" "https://www.tecdrop.com/framedummy/"
